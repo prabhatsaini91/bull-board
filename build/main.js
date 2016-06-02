@@ -1,2 +1,1 @@
-React.render(React.createElement(Board, {count: 10}), 
-    document.getElementById('react-container'));
+ReactDOM.render(<Board/>, document.getElementById('react-container'));
